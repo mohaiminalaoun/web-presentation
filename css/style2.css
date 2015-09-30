@@ -1,4 +1,10 @@
-section { display:block; position:relative; min-height: 700px; }
+section { display:block; position:relative; min-height: 700px;  position: relative;
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+    width:100%; }
+
+    
 .trigger-scroll {
     box-sizing: border-box;
     display: inline-block;
@@ -67,7 +73,7 @@ strong{
 #explore{
     font-weight:800;
     font-family:"Lucida Console";
-    font-size:50px;
+    font-size:45px;
     letter-spacing:2px;
 }
 
