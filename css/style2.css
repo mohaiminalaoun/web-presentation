@@ -32,3 +32,45 @@ section { display:block; position:relative; min-height: 700px; }
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
+
+.hero-banner{
+
+    position: relative;
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+    width:100%;
+
+}
+
+
+#explore{ 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+    
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+
+strong{
+    font-weight:bold;
+}
+
+#explore{
+    font-weight:800;
+    font-family:"Lucida Console";
+    font-size:50px;
+    letter-spacing:2px;
+}
+
+img{
+    width:100%;
+}

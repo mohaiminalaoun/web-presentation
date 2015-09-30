@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	
 	<link rel="stylesheet" href="css/simpletextrotator.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style2.css">
 	<script src="js/jquery-1.6.1.min.js"></script>
 	
 	
@@ -22,7 +22,27 @@
 
 
 <body class="page-scroller">
-  <section class="hero-banner">Web Development</section>
+  <section class="hero-banner">
+  	<img src="css/design.jpg" alt=""/>
+  	<p id="explore">
+			
+				WEB <span class="rotate">DESIGN, DEVELOPMENT</span> 
+
+
+			</p>
+
+  </section>
+  
+	
+	<script>
+	
+	$(".rotate").textrotator({
+        animation: "flipUp",
+        separator: ",",
+    speed: 10500
+    });
+
+    </script>
   <div class="trigger-scroll">&gt;</div>
   <section class="scroll-here">content 1</section>
   <section class="scroll-here">content 2</section>
